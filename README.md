@@ -3,6 +3,14 @@
 
 This example shows how to configure kafak instance using cloud based instance with producer that sends random login data to the instance and a provider that receives the login data and store it in realtime to postgresql database.
 
+## Requirements:
+- python 3.7 and above
+- install kafka-python using: 
+    - ```pip install kafka-python```
+    - ```conda install -c conda-forge kafka-python```
+- install sqlchemy to connect to postgresql database: ```conda install -c anaconda sqlalchemy```
+- install psycopg2 for sqlalchemy connector: ```conda install -c anaconda psycopg2```
+
 ## Setting up kafka cluster: 
 - free version available thanks to upstash [Upstash](https://console.upstash.com/) signup using the free version
 - choose the following options:
